@@ -17,11 +17,11 @@ class Myclass:
             #way 5 -->return self.items[0] ---> str(self.items) ---> then works
             return f"{self.name}:{str(self.id)}:{str(self.sex)}"
     
-
-object=Myclass(name="Niteesh",id=2526644,sex="Male")
-print(object)
-object=Myclass(items=[1,2,3,4])
-print(object)
-print(str([1,2,3,4]))
+if __name__ == "__main__":
+    object=Myclass(name="Niteesh",id=2526644,sex="Male")
+    print(object)
+    object=Myclass(items=[1,2,3,4])
+    print(object)
+    print(str([1,2,3,4]))
 
 
